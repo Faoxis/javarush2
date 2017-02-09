@@ -1,5 +1,6 @@
 package com.javarush.task.task36.task3608.controller;
 
+<<<<<<< HEAD
 
 import com.javarush.task.task36.task3608.model.Model;
 import com.javarush.task.task36.task3608.model.ModelData;
@@ -35,4 +36,18 @@ public class Controller {
     }
 
 
+=======
+import com.javarush.task.task36.task3608.model.Model;
+
+public class Controller {
+    private Model model;
+
+    public void onShowAllUsers() {
+        model.loadUsers();
+    }
+
+    public void setModel(Model model) {
+        this.model = model;
+    }
+>>>>>>> a7107a0e7c5a6d54741a92aafbd62681a0379d4c
 }

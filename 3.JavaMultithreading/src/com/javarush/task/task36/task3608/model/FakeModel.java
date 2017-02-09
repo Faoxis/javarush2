@@ -10,11 +10,15 @@ public class FakeModel implements Model {
 
     @Override
     public ModelData getModelData() {
+<<<<<<< HEAD
 
+=======
+>>>>>>> a7107a0e7c5a6d54741a92aafbd62681a0379d4c
         return modelData;
     }
 
     @Override
+<<<<<<< HEAD
     public void loadDeletedUsers() {
         throw new UnsupportedOperationException();
     }
@@ -24,6 +28,12 @@ public class FakeModel implements Model {
         List<User> users = new ArrayList<>();
         users.add(new User("A", 1, 1));
         users.add(new User("A", 2, 1));
+=======
+    public void loadUsers() {
+        List<User> users = new ArrayList<>();
+        users.add(new User("A", 1, 1));
+        users.add(new User("B", 2, 1));
+>>>>>>> a7107a0e7c5a6d54741a92aafbd62681a0379d4c
         modelData.setUsers(users);
     }
 }

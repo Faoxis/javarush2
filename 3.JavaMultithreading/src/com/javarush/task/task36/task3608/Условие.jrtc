@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="wdghtml" taskKey="com.javarush.task.task36.task3608.big06">
 <h3>MVC (6)</h3>
 <p>Функционал отображения удаленных пользователей есть, а самих таких пользователей нет. Давай это исправим.<br />
@@ -88,6 +89,9 @@
 <p>Ура, идем дальше.</p>
 
 <hr>
+=======
+<div class="wdghtml" taskKey="com.javarush.task.task36.task3608.big02">
+>>>>>>> a7107a0e7c5a6d54741a92aafbd62681a0379d4c
 <h3>MVC (2)</h3>
 <p>1. Создай пакет <strong><span class="text-red">controller</span></strong>, в котором создай класс <span class="text-corporate"><strong>Controller</strong></span>.<br />
 Этот класс будет получать запрос от клиента, оповещать Модель об этом, а Модель, в свою очередь, будет обновлять <strong><span class="text-red">ModelData</span></strong>.</p>
